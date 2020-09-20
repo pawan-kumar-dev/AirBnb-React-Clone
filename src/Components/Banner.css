@@ -1,0 +1,46 @@
+.banner {
+  height: 50vh;
+  position: relative;
+  background-image: url("https://media.cntraveler.com/photos/5d112d50c4d7bd806dbc00a4/master/pass/airbnb%20luxe.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.banner__info {
+  background-color: black;
+  color: white;
+  padding: 20vh 30px 30px 40px;
+  width: 40%;
+}
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+.banner__search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  width: 100% !important;
+}
+@media (max-width: 720px) {
+  .banner__info {
+    padding: 10vh 15px 15px 20px;
+    width: 80%;
+  }
+}

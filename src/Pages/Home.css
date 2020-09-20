@@ -1,0 +1,12 @@
+.home__section {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 720px) {
+  .home__section {
+    grid-template-columns: 88%;
+  }
+}
